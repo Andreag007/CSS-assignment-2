@@ -16,7 +16,7 @@ img {
   background: #FFD5AE;
   color: #000;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin: 0;
   padding: 2rem;
@@ -24,20 +24,20 @@ img {
 
 #lion {
   background: #B26219;
-  color: #000;
+  color: #fff;
   display: flex;
-  flex: 1 1 auto;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin: 0;
   padding: 2rem;
+  padding-top: 2rem;
 }
 
 #tiger {
   background: #FFBD82;
   color: #000;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   margin: 0;
   padding: 2rem;
@@ -45,11 +45,14 @@ img {
 
 .photo {
   max-width: 600px;
+  padding-right: 2rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
+
 
 .text {
   max-width: 600px;
-  background: #fff;
   padding: 0;
   font-size: .95rem;
   line-height: 1.2rem;
@@ -60,7 +63,9 @@ p {
 }
 
 .text h2{
-  text-align: center;
+  text-align: inherit;
+  padding: 1rem;
+  padding-top: 3rem;
 }
 
 section {
